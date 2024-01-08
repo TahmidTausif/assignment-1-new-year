@@ -205,7 +205,6 @@
 .sale{
     width: 82.5%;
     max-width: 1320px;
-    max-height: 482px;
     margin: 120px auto;
 }
 .sale .sale-text{
@@ -276,6 +275,60 @@
 /* sale section end */
 
 /* portfolio section start */
+.portfolio{
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto;
+}
+.portfolio .portfolio-text{
+    text-align: left;
+}
+.portfolio .portfolio-text h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+.portfolio .portfolio-text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 24px;
+}
+.portfolio .portfolio-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 48px;
+}
+.portfolio .portfolio-img{
+    display: grid;
+    gap: 24px;
+   grid-template-columns: repeat(3, 1fr);
+}
+.portfolio .portfolio-img img{
+    border-radius: 16px;
+    object-fit: cover;
+}
+.portfolio .portfolio-img img:hover{
+    transform: scale(1.2);
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease;
+    overflow: hidden !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* portfolio section end */
 
 /* newsletter section start */
