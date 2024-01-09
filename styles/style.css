@@ -199,6 +199,73 @@
 /* invite section end */
 
 /* offer section start */
+.offer{
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto;
+    display: flex;
+}
+.offer .offer-text{
+    max-width: 393px;
+    padding-top: 100px;
+    padding-right: 70px;
+    text-align: left;
+}
+.offer .offer-text h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.offer .offer-text h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+.offer .offer-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.offer .offer-img{
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 50%;
+    padding: 35px;
+    border: 15px #F00 solid;
+}
+.offer .offer-year{
+    text-align: left;
+    padding-left: 124px;
+    padding-top: 112px;
+}
+.offer .offer-year h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.offer .offer-year p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 24px; 
+}
 /* offer section end */
 
 /* sale section start */
@@ -239,7 +306,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 160% */
+    line-height: 32px; 
 }
 .sale .sale-img{
     display: flex;
