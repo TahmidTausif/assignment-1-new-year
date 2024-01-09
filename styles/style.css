@@ -392,7 +392,7 @@
     object-fit: cover;
 }
 .portfolio .portfolio-img img:hover{
-    transform: scale(1.2);
+    transform: scale(0.9);
     transition: transform 0.6s ease;
     overflow: hidden !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -519,5 +519,27 @@ footer .footer-contact .contact ul li a{
     font-weight: 500;
     line-height: 40px; /* 166.667% */
 }
-
+footer .social{
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 50px auto 0px;
+    border-top: 1px rgba(255, 255, 255, 0.15) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.15) solid;
+    text-align: center;
+    padding: 48px 0px;
+}
+footer .social a{
+    padding-right: 24px;
+    border-radius: 50%;
+    
+}
+footer .social a img{
+    border-radius: 50%;
+    box-shadow: 0 0 9.5px 1px rgba(255, 255, 255, 0.2);
+}
+footer .social a img:hover{
+    transform: scale(0.8);
+    transition: transform 0.6s ease;
+    overflow: hidden !important;    
+}
 /* footer end */
