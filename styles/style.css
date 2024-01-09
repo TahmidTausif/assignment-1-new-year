@@ -25,14 +25,11 @@
 .banner .banner-text h4{
     font-family: Merriweather;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 .banner .banner-text h2{
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: 95px;
 }
@@ -52,27 +49,21 @@
     color: #F00;
     font-family: Inter;
     font-size: 88px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding-bottom: 48px;
 }
 .deal p{
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     padding-bottom: 16px;
 }
 .deal h4{
     color: #070211;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding-bottom: 48px;
 }
 .deal img{
@@ -86,7 +77,6 @@
 .party-banner{
     width: 82.5%;
     max-width: 1320px;
-    max-height: 600px;
     margin: 120px auto;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
@@ -103,7 +93,6 @@
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
-    font-style: normal;
     font-weight: 900;
     line-height: 88px; 
     letter-spacing: 7.04px;
@@ -113,7 +102,6 @@
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     padding-bottom: 48px; 
@@ -126,20 +114,18 @@
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     padding: 16px 32px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border: none;
+    border: 2px #F00 solid;
 }
 .party-banner .party-banner-text button:hover{
     background: transparent;
     color: #F00;
-    border: 2px #F00 solid;
+    cursor: pointer;
 }
 .party-banner-img{
     padding: 68px 138px 68px 5px;
@@ -150,7 +136,6 @@
 .invite{
     width: 82.5%;
     max-width: 1320px;
-    max-height: 482px;
     margin: 120px auto;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
@@ -164,7 +149,6 @@
     text-align: center;
     font-family: Inter;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px; /* 175% */
     text-transform: capitalize;
@@ -181,20 +165,18 @@
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     padding: 16px 32px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border: none;
+    border: 2px #F00 solid;
 }
 .invite .invite-text button:hover{
     background: #FFF;
     color: #F00;
-    border: 2px #F00 solid;
+    cursor: pointer;
 }
 /* invite section end */
 
@@ -215,17 +197,13 @@
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 .offer .offer-text h3{
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
     padding-bottom: 22px;
 }
@@ -233,7 +211,6 @@
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
 }
@@ -253,15 +230,12 @@
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 .offer .offer-year p{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
     padding-bottom: 24px; 
@@ -282,18 +256,14 @@
     color: #070211;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 .sale .sale-text h2{
     color: #070211;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     padding-bottom: 28px;
 }
 .sale .sale-text h2 span{
@@ -304,7 +274,6 @@
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 32px; 
 }
@@ -357,18 +326,14 @@
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     padding-bottom: 16px;
 }
 .portfolio .portfolio-text h2{
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
     padding-bottom: 24px;
 }
@@ -376,7 +341,6 @@
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
     padding-bottom: 48px;
@@ -416,9 +380,7 @@
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
     padding: 40px 0px 0px;
 }
@@ -426,7 +388,6 @@
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px; 
     padding: 22px 212px;/* 160% */
@@ -443,9 +404,7 @@
     text-align: left;
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     padding: 16px 32px;
     border: none;
 }
@@ -456,18 +415,15 @@
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: capitalize;
     padding: 16px 32px;
-    border: none;
+    border: 2px #F00 solid;
 }
 .newsletter form button:hover{
     background: #FFF;
     color: #F00;
-    border: 2px #F00 solid;
-    padding: 14px 30px;
+    cursor: pointer;
 }
 /* newsletter section end */
 
@@ -489,7 +445,6 @@ footer .footer-contact .address{
     text-align: left;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 40px; 
     padding: 120px 300px 50px 0px;/* 166.667% */
@@ -515,7 +470,6 @@ footer .footer-contact .contact ul li a{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 40px; /* 166.667% */
 }
@@ -541,5 +495,26 @@ footer .social a img:hover{
     transform: scale(0.8);
     transition: transform 0.6s ease;
     overflow: hidden !important;    
+}
+footer .rights{
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 50px auto 0px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .rights p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+footer .rights p a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
 }
 /* footer end */
